@@ -1,0 +1,10 @@
+Added lib/types.ts for interfaces and lib/constants.ts for the prompt
+created interface for API responses
+removed multiple setTimeout-based state updates
+added dependency array to useCallback for fetchAgentResponse
+added descriptive variable names
+added comments
+created fetchAgentResponse to allow us to re-use the logic for fetching responses
+created jsonObject to allow us to extract the JSON object from the response instead of string
+added demo to PR
+added threadID when conversation begins to improve agent memory history (API Docs not found: https://langchain-ai.github.io/langgraphjs/reference/functions/prebuilt.createReactAgent.html)
